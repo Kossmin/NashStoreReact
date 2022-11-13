@@ -1,0 +1,17 @@
+.modal{
+   width: 50% !important;
+   height: 100%;
+   background-color: black;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: left 2s;
+   background-image: url("../assets/logo-with-backdrop.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.modal.signup{
+   left: 50%;
+}
